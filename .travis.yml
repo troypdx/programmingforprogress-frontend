@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '6.0'
+install: npm install
+deploy:
+  provider: s3
+  access_key_id: "<access_key_id>"
+  bucket: "<bucket_name>"
+  region: us-west-2
+  secret_access_key:
+    secure: c9ez9Jhb9nzdof5Qb4K1yz1PEE1s1i0R7m1cGD1tkG4g81dWmKeZ3mO1Kp4Qmzh5RDfJ/hKYI/cV0jhTt55ADSfc0I9EDSZQXQAQROqAvLR0ScU77RYPJkXy1Tn6jeFKTLj5SiIWzyVIOnjZbyZftUu1u/4pBaIlzfAOOWlnO/9gXVNabWJeg29lfCy1+0ZXU8Wa0fXy+XtX1k92ttLyIslwM7XDZE93RABmtsZ4pyPB9eR9NR5ShFVje2ph8e41BQnrCkH65/uG+uwl0uZBL/Awu4sfhKZQ1djDAhnkCvMIwf633Iz7na8Z2j9Jl7kHxGdqaw/otgA9zwEGJJrWx9LadI4rdK+r5CV8gMy7SABz2WgFWyAMvKQ2XTKuUjT/abBSY6cXV/HWnVFgTweCxpqn4WCnckPgFDTD/43GZobJ11N37p00xJxB16pK0xzJ84PEYZuxWro+5aQPiiThlgQug4ZBGsauDksK6qBgy5HqH8T/bdhdAjrRde4M/cns5NcqF1ZMvIFFOVZMMrJ2jD2dh6uE0tZNcybDFte5vuCCAdrFvIECxw0LaXULxQDxiZhKF6Pzh4OgEJKwYQuxMSe0QRzL8mO+kLCOn3z1L4+N8Km91gm+QQO5Ms9MfeobZvXu7wYgxclAZw9AqfCdXJ1cgZephC90JmVR0H/sILw=
